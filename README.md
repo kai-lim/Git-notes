@@ -1,16 +1,4 @@
----
-title: "Git notes"
-author: "Kai Lim"
-date: "21/06/2022"
-output:
-  html_document:
-    toc: true
-    toc_float: true
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Notes for git/github
 
 This is a note/cheatsheet written as a reference for how to create a git repo and link it with a remote repo, and how to create a branch, and merge it with the main branch. 
 
@@ -25,13 +13,13 @@ git init #initiate a new git repo in the directory
 
 Avoid creating a README file at this stage to avoid potential issues when linking the local repo to this remote repo.
 
-![](/Users/kai/Desktop/test/create_new_repo.png)
+![](create_new_repo.png)
 
 # Step 3: link the local repo with the remote repo
 
 In this example, the link is https://github.com/kai-lim/test.git 
 
-![](/Users/kai/Desktop/test/repo_link.png)
+![](repo_link.png)
 
 If there are already some files in the repo, add them and commit 
 ```{bash add, eval=FALSE}
@@ -92,7 +80,7 @@ echo "Hello" >> hello.txt
 ```
 Check on your folder if this file has been created. :)
 
-# Step 5: Commiting changes in branch
+# Step 5: Committing changes in branch
 Now we will commit this hello.txt file.
 
 ```{bash commit-branch, eval=FALSE}
