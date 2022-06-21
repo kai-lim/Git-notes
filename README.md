@@ -2,6 +2,8 @@
 
 This is a note/cheatsheet written as a reference for how to create a git repo and link it with a remote repo, and how to create a branch, and merge it with the main branch. 
 
+Html version here: https://kai-lim.github.io/Git-notes/ 
+
 # Step 1: Create a directory and initiate git version control in it
 ```{bash, eval=FALSE}
 mkdir test #create a new directory
